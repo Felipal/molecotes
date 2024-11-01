@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body{
+  background-color: #000000;  
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+:root{
+    --fonte-titulo:"Open Sans";
+    --fonte-texto:"Open Sans", "sans-serif";
+    --cor-titulo:rgb(104, 0, 133);
+  --fundo-titulo:rgb(0, 250, 17);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+.cabecalho{
+    padding: 1.5% 0% 1.5% 10%;
+    background-image: linear-gradient(var(--fundo-titulo),#00fa11);
+    border: solid;
+    border-color: rgb(0, 250, 17);
+}
+.cabecalho__menu {
+    display:flex;
+    gap: 50px;
+}
+.cabecalho__menu__link{
+    font-family: var(--fonte-titulo);
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: var(--cor-titulo);
+    text-decoration: none;
+}
+
+
+h1{
+  text-align: center;
+  color: #680085;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 400%;
+  
+}
+p{
+  text-align: justify;
+   text-align: center;
+}
+a{
+  text-decoration: nome;
+  color: #00fa11;
+  size: 14px
+  ;
+}
+a:hover{
+  color:#680085;
+  size: 16px;
+}
+
+p2{
+  text-decoration: nome;
+  color: #00fa11;
+  size: 14px
+  text-align: center
+  ;
+  }
+
+  
